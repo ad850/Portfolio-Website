@@ -14,11 +14,11 @@ const Contact = () => {
 
         if (!state1 && !state2) {
 
-            alert("pleas enter valid detalis")
+            alert("please enter valid details!")
 
         } else if (state2.length <= 10) {
 
-            alert("pleas enter valid detalis")
+            alert("please enter valid details!")
         }
         else {
 
