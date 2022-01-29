@@ -15,11 +15,8 @@ import {
 
 const Portfolio = () => {
 
-
     const [selected, setselected] = useState("featured")
-
     const [data, setData] = useState([]);
-
     const list = [
 
         {
@@ -96,19 +93,15 @@ const Portfolio = () => {
             </ul>
 
             <div className="container">
-
                 {
                     data.map((d,index) => (
-
                         <a href={d.link} target="_blank"  key={index}>   <div className="item">
                             <img src={d.img} alt="google" />
                             <h3>{d.title}</h3>
                         </div>
                         </a>
-
                     ))
                 }
-
             </div>
         </div>
     )
