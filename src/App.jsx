@@ -9,12 +9,8 @@ import './app.scss'
 import { useState } from 'react';
 import Menu from './components/Menu/Menu';
 
-
-
 const App = () => {
-
   const [menuopen, setmenuOpen] = useState(false);
-
   return (
     <div className="app">
       <Topbar menuopen={menuopen} setmenuOpen={setmenuOpen} />
