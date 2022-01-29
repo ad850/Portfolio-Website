@@ -1,5 +1,4 @@
 import React from 'react';
-
 import './Menu.scss';
 
 
@@ -13,9 +12,7 @@ const Menu = ({ menuopen, setmenuOpen }) => {
                 <li ><a href="#works">Works</a></li>
                 <li ><a href="#testimonials">Tech Stack</a></li>
                 <li ><a href="#contact">Contact</a></li>
-
             </ul>
-
         </div>
     )
 }
